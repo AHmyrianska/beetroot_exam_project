@@ -7,15 +7,13 @@ const StyledHamburger = styled.div`
   height: 2rem;
   z-index: 101;
   display: none;
-  position: ${({ open }) => open ? 'fixed' : 'static'};
-  top: 75px;
-  right: 15px;
-
 
   @media screen and (max-width: 992px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+   padding-left: ${({ open }) => open ? '30px' : '0'};
+
   }
 
   div {
@@ -41,6 +39,7 @@ const StyledHamburger = styled.div`
     }
   }
 `;
+
 
 function Hamburger() {
   const [open, setOpen] = useState(false);
