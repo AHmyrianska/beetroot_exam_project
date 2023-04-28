@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <Link to="/" className="logo">
+      <Link to="/beetroot_exam_project" className="logo">
         <img src={require("../assets/images/logo-color.png")} alt="Yum Yum Yum logo" className="logo__img" />
       </Link>
       <Search />
