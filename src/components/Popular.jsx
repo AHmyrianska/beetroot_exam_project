@@ -21,9 +21,7 @@ function Popular() {
       setPopular(JSON.parse(check));
       //якщо збережені - розпарсили і зберегли в наш State
     } else {
-      const api = await fetch(
-        `https://api.spoonacular.com/recipes/random?apiKey=${API_KEY}&number=9`
-      );
+      const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${API_KEY}&number=9`);
       const data = await api.json();
       sessionStorage.setItem("popular", JSON.stringify(data.recipes));
       //якщо сховище пусте - фетчимо і зберігаємо туди дані у вигляді рядка (метод stringify)
@@ -39,6 +37,7 @@ function Popular() {
 
       <Splide
         options={{
+          type: "loop",
           autoWidth: true,
           perPage: 3,
           arrows: false,
