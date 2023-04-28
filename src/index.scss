@@ -41,6 +41,10 @@ code {
   // background-color: $secondary-color;
   background: linear-gradient($secondary-color, #ffffff);
   padding: 20px 7vw;
+
+  @media screen and (max-width: 992px) {
+    justify-content: flex-start;
+   }
 }
 
 .logo {
@@ -54,6 +58,10 @@ code {
   &__img {
     width: 100%;
   }
+
+  @media screen and (max-width: 992px) {
+    margin-right: 5vw;
+   }
 }
 
 .search {

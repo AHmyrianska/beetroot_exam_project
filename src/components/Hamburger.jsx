@@ -12,7 +12,10 @@ const StyledHamburger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
-   padding-left: ${({ open }) => open ? '30px' : '0'};
+   position: ${({ open }) => open ? 'fixed' : 'static'};
+   top: 20px;
+   right: 20px;
+   margin-left: auto;
 
   }
 
