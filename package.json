@@ -2,7 +2,7 @@
   "name": "project3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AHmyrianska.github.io/beetroot_exam_project",
+  "homepage": "https://AHmyrianska.github.io/",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",
