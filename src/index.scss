@@ -84,7 +84,7 @@ code {
     background: linear-gradient(#7fc37e, #2c853e);
     color: white;
     outline: none;
-    padding: 10px 10px 10px 50px;
+    padding: 10px 10px 10px 40px;
     font-family: "Open Sans", sans-serif;
 
     &::placeholder {
@@ -92,6 +92,11 @@ code {
       color: white;
       font-family: "Open Sans", sans-serif;
       font-weight: 300;
+
+      @media screen and (max-width: 992px) {
+        font-size: 0.75rem;
+       }
+    
     }
   }
 
