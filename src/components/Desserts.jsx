@@ -46,6 +46,13 @@ function Desserts() {
           pagination: true,
           drag: "free",
           gap: "3em",
+          arrows: true,
+          breakpoints: {
+            767: {
+              gap: "1em",
+              arrows: false,
+            },
+          }  
         }}
       >
         {desserts.map((recipe) => {
