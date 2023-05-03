@@ -61,9 +61,9 @@ function Recipe() {
           {activeTab === "ingredients" && (
             <ul className="ingredients">
               {details.extendedIngredients.map((ingredient) => (
-                <div className="ingredients__item">
+                <div className="ingredients__item" key={ingredient.id}>
                 <CiForkAndKnife size={'1rem'} color={'#2c853e'}/>
-                <li key={ingredient.id}>{ingredient.original}</li>
+                <li>{ingredient.original}</li>
                 </div>
               ))}
             </ul>
