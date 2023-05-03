@@ -13,9 +13,9 @@ function Pages() {
     <AnimatePresence wate>
       <Routes location={location} key={location.pathname}>
         <Route path="/beetroot_exam_project" element={<Home />} />
-        <Route path="/beetroot_exam_project/cuisine/:type" element={<Cuisine />} />
-        <Route path="/beetroot_exam_project/searched/:search" element={<Searched />} />
-        <Route path="/beetroot_exam_project/recipe/:name" element={<Recipe />}/>
+        <Route path="/cuisine/:type" element={<Cuisine />} />
+        <Route path="/searched/:search" element={<Searched />} />
+        <Route path="/recipe/:name" element={<Recipe />}/>
       </Routes>
       </AnimatePresence>
   );

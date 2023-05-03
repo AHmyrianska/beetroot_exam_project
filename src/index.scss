@@ -45,9 +45,9 @@ code {
 
   @media screen and (max-width: 992px) {
     justify-content: flex-start;
-   }
+  }
 
-   @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     padding: 20px 3vw;
   }
 }
@@ -70,11 +70,11 @@ code {
 
   @media screen and (max-width: 992px) {
     margin-right: 5vw;
-   }
+  }
 
-   @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     margin-right: 3vw;
-   }
+  }
 }
 
 .search {
@@ -90,7 +90,7 @@ code {
 
   @media screen and (max-width: 992px) {
     margin-right: 5vw;
-   }
+  }
 
   &__input {
     width: 100%;
@@ -111,8 +111,7 @@ code {
 
       @media screen and (max-width: 992px) {
         font-size: 0.75rem;
-       }
-    
+      }
     }
   }
 
@@ -126,7 +125,6 @@ code {
 }
 
 .categories {
-
   &__title {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
@@ -163,7 +161,7 @@ code {
   }
 }
 
-// //Hamburger 
+// //Hamburger
 // .hamburger {
 //   width: 40px;
 //   height: 40px;
@@ -215,7 +213,7 @@ code {
 
     &-recipe {
       z-index: -1;
-        }
+    }
   }
 
   &__title {
@@ -335,6 +333,9 @@ button {
     max-width: 280px;
     z-index: 1000;
     border-radius: 7px;
+    @media screen and (max-width: 767px) {
+      font-size: 0.8rem;
+    }
   }
 
   &__card {
@@ -343,12 +344,11 @@ button {
     height: 450px;
 
     @media screen and (max-width: 767px) {
-     margin: 0 3vw;
+      margin: 0 3vw;
       width: 350px;
       height: 350px;
     }
-    }
-  
+  }
 
   &__btns {
     display: flex;
@@ -402,7 +402,7 @@ button {
   @include title;
   display: inline-block;
   font-size: 2rem;
-  
+
   &-recipe {
     font-size: 1.2rem;
     max-width: 280px;
