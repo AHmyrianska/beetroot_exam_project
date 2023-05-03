@@ -335,6 +335,7 @@ button {
     border-radius: 7px;
     @media screen and (max-width: 767px) {
       font-size: 0.8rem;
+      max-width: 180px;
     }
   }
 
