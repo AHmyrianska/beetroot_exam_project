@@ -215,12 +215,7 @@ code {
 
     &-recipe {
       z-index: -1;
-
-      @media screen and (max-width: 767px) {
-        width: 350px;
-        height: 350px;
-      }
-    }
+        }
   }
 
   &__title {
@@ -349,8 +344,11 @@ button {
 
     @media screen and (max-width: 767px) {
      margin: 0 3vw;
+      width: 350px;
+      height: 350px;
     }
-  }
+    }
+  
 
   &__btns {
     display: flex;
