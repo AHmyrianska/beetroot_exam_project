@@ -57,7 +57,7 @@ function Popular() {
           return (
             <SplideSlide key={recipe.id}>
               <div className="card">
-                <Link to={"/beetroot_exam_project/recipe/" + recipe.id}>
+                <Link to={"recipe/" + recipe.id}>
                   <p className="card__title">{recipe.title}</p>
                   <img src={recipe.image} alt={recipe.title} className="card__img" />
                 </Link>
