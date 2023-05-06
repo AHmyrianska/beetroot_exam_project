@@ -15,7 +15,7 @@ function Pages() {
         <Route path="/beetroot_exam_project" element={<Home />} />
         <Route path="/cuisine/:type" element={<Cuisine />} />
         <Route path="/searched/:search" element={<Searched />} />
-        <Route path="/recipe/:name" element={<Recipe />}/>
+        <Route path="beetroot_exam_project/recipe/:name" element={<Recipe />}/>
       </Routes>
       </AnimatePresence>
   );
