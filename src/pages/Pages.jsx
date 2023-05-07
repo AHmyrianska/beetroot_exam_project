@@ -12,10 +12,10 @@ function Pages() {
   return (
     <AnimatePresence wate>
       <Routes location={location} key={location.pathname}>
-        <Route path="/beetroot_exam_project" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/cuisine/:type" element={<Cuisine />} />
         <Route path="/searched/:search" element={<Searched />} />
-        <Route path="beetroot_exam_project/recipe/:name" element={<Recipe />}/>
+        <Route path="/recipe/:name" element={<Recipe />}/>
       </Routes>
       </AnimatePresence>
   );
