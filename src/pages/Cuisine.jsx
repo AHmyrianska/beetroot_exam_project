@@ -34,7 +34,7 @@ function Cuisine() {
       {cuisine.map((item) => {
         return (
           <div className="cuisine-card" key={item.id}>
-            <Link to={"/beetroot_exam_project/recipe/" + item.id} className="cuisine-card__link">
+            <Link to={"/recipe/" + item.id} className="cuisine-card__link">
               {/* <div className="img-wrapper" style={{ background: `url(${item.image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '300px', minWidth: '100%'}} > */}
               <div className="img-container">
                 <img src={item.image} alt="" className="cuisine-card__img" />
