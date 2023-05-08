@@ -1,7 +1,7 @@
 {
   "name": "project3",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://AHmyrianska.github.io/beetroot_exam_project",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
