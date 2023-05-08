@@ -14,19 +14,20 @@ function Popular() {
   // useEffect - запускає функцію, щойно відбудеться рендеринг компонента
 
   const getPopular = async () => {
-    // const check = sessionStorage.getItem("popular");
+    const check = sessionStorage.getItem("popular");
     //для перевірки, чи збережені наші popular у локальному сховищі
 
-    // if (check) {
-    //   setPopular(JSON.parse(check));
-    //   //якщо збережені - розпарсили і зберегли в наш State
-    // } else {
+    if (check) {
+      setPopular(JSON.parse(check));
+      //якщо збережені - розпарсили і зберегли в наш State
+    } else {
     const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${API_KEY}&number=9`);
     const data = await api.json();
-    // sessionStorage.setItem("popular", JSON.stringify(data.recipes));
+    sessionStorage.setItem("popular", JSON.stringify(data.recipes));
     //якщо сховище пусте - фетчимо і зберігаємо туди дані у вигляді рядка (метод stringify)
     setPopular(data.recipes);
     //Оновлюємо змінну popular, передаючи туди масив об'єктів, отриманих через API
+    }
   };
 
   return (
