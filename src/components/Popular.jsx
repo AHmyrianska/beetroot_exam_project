@@ -38,7 +38,7 @@ function Popular() {
         options={{
           type: "loop",
           autoWidth: true,
-          perPage: 3,
+          perPage: 1,
           arrows: false,
           pagination: true,
           drag: "free",
