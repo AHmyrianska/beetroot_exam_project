@@ -36,7 +36,6 @@ function Popular() {
 
       <Splide
         options={{
-          type: "loop",
           autoWidth: true,
           arrows: false,
           pagination: true,
