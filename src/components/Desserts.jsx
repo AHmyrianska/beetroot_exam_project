@@ -39,7 +39,6 @@ function Desserts() {
 
       <Splide
         options={{
-          type: 'loop',
           autoWidth: true,
           pagination: true,
           drag: "free",
