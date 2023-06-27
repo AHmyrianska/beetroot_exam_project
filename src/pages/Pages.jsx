@@ -6,18 +6,17 @@ import Searched from "./Searched";
 import Recipe from "./Recipe";
 import { AnimatePresence } from "framer-motion";
 
-
 function Pages() {
   const location = useLocation();
   return (
     <AnimatePresence wate>
       <Routes location={location} key={location.pathname}>
-        <Route path="/beetroot_exam_project" element={<Home />} />
+        <Route path="/recipes-searching-app" element={<Home />} />
         <Route path="/cuisine/:type" element={<Cuisine />} />
         <Route path="/searched/:search" element={<Searched />} />
-        <Route path="/recipe/:name" element={<Recipe />}/>
+        <Route path="/recipe/:name" element={<Recipe />} />
       </Routes>
-      </AnimatePresence>
+    </AnimatePresence>
   );
 }
 
