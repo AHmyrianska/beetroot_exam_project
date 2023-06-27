@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/beetroot_exam_project/static/css/main.43478d09.css",
+    "main.js": "/beetroot_exam_project/static/js/main.f6454b5b.js",
+    "static/media/logo-color.png": "/beetroot_exam_project/static/media/logo-color.bdd4183444aa6378d873.png",
+    "index.html": "/beetroot_exam_project/index.html",
+    "main.43478d09.css.map": "/beetroot_exam_project/static/css/main.43478d09.css.map",
+    "main.f6454b5b.js.map": "/beetroot_exam_project/static/js/main.f6454b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43478d09.css",
+    "static/js/main.f6454b5b.js"
+  ]
+}
