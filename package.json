@@ -2,7 +2,7 @@
   "name": "project3",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://AHmyrianska.github.io/beetroot_exam_project",
+  "homepage": "https://AHmyrianska.github.io/recipes-searching-app",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",
@@ -50,6 +50,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "build": "react-scripts build && cp build/index.html build/404.html"
+  }
 }
