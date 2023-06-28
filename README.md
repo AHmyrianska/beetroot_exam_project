@@ -23,7 +23,7 @@
 > - Open your browser and visit: http://localhost:3000
 
 ## Room for Improvement
-> Improve app performance
+> Improve app performance.
 
 #### To do:
 > - Filter by dietary preferences: Choose specific dietary requirements such as vegetarian, vegan, gluten-free, etc.
