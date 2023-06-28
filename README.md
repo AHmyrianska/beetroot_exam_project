@@ -25,7 +25,7 @@
 ## Room for Improvement
 > Improve app performance
 
-### To do:
+#### To do:
 > - Filter by dietary preferences: Choose specific dietary requirements such as vegetarian, vegan, gluten-free, etc.
 > - Save favorite recipes: Bookmark your favorite recipes for quick access.
 
