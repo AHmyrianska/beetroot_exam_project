@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/recipes-searching-app/static/css/main.43478d09.css",
-    "main.js": "/recipes-searching-app/static/js/main.a982835d.js",
+    "main.js": "/recipes-searching-app/static/js/main.fd8a4fec.js",
     "static/media/logo-color.png": "/recipes-searching-app/static/media/logo-color.bdd4183444aa6378d873.png",
     "index.html": "/recipes-searching-app/index.html",
     "main.43478d09.css.map": "/recipes-searching-app/static/css/main.43478d09.css.map",
-    "main.a982835d.js.map": "/recipes-searching-app/static/js/main.a982835d.js.map"
+    "main.fd8a4fec.js.map": "/recipes-searching-app/static/js/main.fd8a4fec.js.map"
   },
   "entrypoints": [
     "static/css/main.43478d09.css",
-    "static/js/main.a982835d.js"
+    "static/js/main.fd8a4fec.js"
   ]
 }
