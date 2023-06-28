@@ -1,10 +1,10 @@
 # Culinary Recipe Searching App
-> Welcome to the Culinary Recipe Searching App! This React application allows you to search for culinary recipes based on your preferences. It provides a user-friendly interface for exploring and discovering new dishes to try. You can access the live version of the app at: https://ahmyrianska.github.io/recipes-searching-app/
+Welcome to the Culinary Recipe Searching App! This React application allows you to search for culinary recipes based on your preferences. It provides a user-friendly interface for exploring and discovering new dishes to try. You can access the live version of the app at: https://ahmyrianska.github.io/recipes-searching-app/
 
 ## Features
-> Search for recipes: Enter keywords to find relevant recipes.
-> Sections with different cuisines.
-> Browse recipe details: View recipe instructions and ingredients.
+Search for recipes: Enter keywords to find relevant recipes.
+Sections with different cuisines.
+Browse recipe details: View recipe instructions and ingredients.
 
 ## Technologies Used
 > React: A JavaScript library for building user interfaces.
